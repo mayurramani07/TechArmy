@@ -1,0 +1,67 @@
+.Footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    height: 300px;
+}
+.Footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding : 30px 50px;
+    gap: 50px;
+}
+.Footer-column .CompanyInfo{
+    max-width: 30%;
+}
+.Footer-content h4{
+    font-size: 25px;
+    margin-top: 20px;;
+}
+.Footer-content p{
+    margin-top: 26px;
+}
+.Footer-column i{
+    margin-top: 16px;
+    padding-right: 10px;
+    
+}
+.Footer-column a{
+    color: white;
+    text-decoration: none;
+}
+.Footer-column i:hover{
+    font-size: 20px;
+    color: blue;
+    transition: ease-in-out 0.3s;
+}
+.CompanyInfo h4 {
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+li:hover{
+    color: blue;
+    transition: color 0.3s ease;
+
+}
+li {
+    margin-top: 26px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li:hover {
+    color: blue;
+    transition: color 0.3s ease;
+}

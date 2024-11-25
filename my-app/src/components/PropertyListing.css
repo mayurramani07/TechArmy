@@ -1,0 +1,100 @@
+.property-listing {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .property-listing h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .property-listing form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .property-listing label {
+    font-weight: bold;
+    color: #555; 
+  }
+  
+  .property-listing input,
+  .property-listing textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s; 
+  }
+  
+  .property-listing input:focus,
+  .property-listing textarea:focus {
+    border-color: #4CAF50; 
+    outline: none;
+  }
+  
+  .property-listing button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .property-listing button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); 
+  }
+  
+  .image-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .image-preview img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .image-preview img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  @media (max-width: 768px) {
+    .property-listing {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    .property-listing h1 {
+      font-size: 20px;
+    }
+  
+    .property-listing button {
+      font-size: 14px;
+    }
+  
+    .image-preview img {
+      width: 80px;
+      height: 80px; 
+    }
+  }
+  
