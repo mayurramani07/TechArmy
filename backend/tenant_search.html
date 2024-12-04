@@ -1,0 +1,13 @@
+<html>
+<body>
+    <h2>Search for Properties</h2>
+    <form method="POST" action="{{ url_for('tenant_search') }}">
+        Property Type: <input type="text" name="property_type" required><br>
+        City: <input type="text" name="city" required><br>
+        Rent: <input type="text" name="rent" required><br>
+        Time Duration: <input type="text" name="time" required><br>
+        <input type="submit" value="Search">
+    </form>
+    <a href="{{ url_for('home') }}">Back to Home</a>
+</body>
+</html>

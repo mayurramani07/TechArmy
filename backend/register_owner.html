@@ -1,0 +1,13 @@
+<html>
+<body>
+    <h2>Register as an Owner</h2>
+    <form method="POST" action="{{ url_for('register_owner') }}">
+        First Name: <input type="text" name="firstname" required><br>
+        Last Name: <input type="text" name="lastname" required><br>
+        Email: <input type="email" name="email" required><br>
+        Password: <input type="password" name="password" required><br>
+        <input type="submit" value="Register">
+    </form>
+    <a href="{{ url_for('home') }}">Back to Home</a>
+</body>
+</html>
